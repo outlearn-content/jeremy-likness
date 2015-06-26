@@ -26,12 +26,12 @@ I can only assume other organizations are seeing positive results after adopting
 
 ![angulartrends](https://raw.githubusercontent.com/outlearn-content/jeremy-likness/master/assets/angulartrends_2.jpg)
 
-<!-- @link, "url" : "https://www.google.com/trends/explore#q=AngularJS%2BAngular.js%2C%20KnockoutJS%2BKnockout.js%2C%20ReactJS%2BReact.js%2C%20EmberJS%2BEmber.js%2C%20Backbonejs%2BBackbone.JS&cmpt=q&tz=Etc%2FGMT%2B4", "text": "Check out an updated Google Trends chart with AngularJS, KnockoutJS, React.js, Ember.js, and Backbone.js." -->
-
+<!-- @task, "text": "Check out an updated Google Trends chart at https://goo.gl/r4k22s comparing AngularJS, KnockoutJS, React.js, Ember.js, and Backbone.js." -->
 
 One of the first single-track AngularJS conferences, [ng-conf](http://ng-conf.org/), sold out hundreds of tickets in just a few minutes.
 
 This post isn’t intended to bash KnockoutJS or Ember or Backbone or any of the other popular frameworks that you may already be using and are familiar with. Instead, I’d like to focus on why I believe AngularJS is gaining so much momentum so quickly and is something anyone who works on web applications should take very seriously and at least learn more about to decide if it’s the right tool to put in your box.
+
 
 <!-- @section -->
 
