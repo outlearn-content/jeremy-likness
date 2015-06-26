@@ -26,13 +26,16 @@ I can only assume other organizations are seeing positive results after adopting
 
 ![angulartrends](https://raw.githubusercontent.com/outlearn-content/jeremy-likness/master/assets/angulartrends_2.jpg)
 
+<!-- @link, "url" : "https://www.google.com/trends/explore#q=AngularJS%2BAngular.js%2C%20KnockoutJS%2BKnockout.js%2C%20ReactJS%2BReact.js%2C%20EmberJS%2BEmber.js%2C%20Backbonejs%2BBackbone.JS&cmpt=q&tz=Etc%2FGMT%2B4", "text": "Check out an updated Google Trends chart with AngularJS, KnockoutJS, React.js, Ember.js, and Backbone.js." -->
+
+
 One of the first single-track AngularJS conferences, [ng-conf](http://ng-conf.org/), sold out hundreds of tickets in just a few minutes.
 
 This post isn’t intended to bash KnockoutJS or Ember or Backbone or any of the other popular frameworks that you may already be using and are familiar with. Instead, I’d like to focus on why I believe AngularJS is gaining so much momentum so quickly and is something anyone who works on web applications should take very seriously and at least learn more about to decide if it’s the right tool to put in your box.
 
 <!-- @section -->
 
-## 1\. AngularJS Gives XAML Developers a Place to Go on the Web
+## 1. AngularJS Gives XAML Developers a Place to Go on the Web
 
 I make this bullet a little “tongue-in-cheek” because the majority of developers using Angular probably haven’t touched XAML with a 10 foot pole. That’s OK, the reasons why XAML became popular in the Microsoft world through WPF, Silverlight, and now Windows Store app development are important to look at because they translate quite well to Angular. If you’re not familiar with XAML, it is a declarative language based on XML used to instantiate object graphs and set values. You can define various types of objects with properties and literally mark up a set that will get created. The most common types of objects to create are user interface elements such as panels and controls that create a display. XAML makes it easy to layout complex UIs that may change over time. XAML supports inheritance (properties defined as children of parents can pick up values set higher in the tree) and bubbles events similar to the HTML DOM.
 
@@ -46,16 +49,17 @@ I see these same principles reflected in the Angular framework. It enables a sep
 
 <!-- @section -->
 
-## 2\. AngularJS Gets Rid of Ritual and Ceremony
+## 2. AngularJS Gets Rid of Ritual and Ceremony
 
 ![egyptian-gods](https://raw.githubusercontent.com/outlearn-content/jeremy-likness/master/assets/egyptian-gods_2.jpg)
-
 <span style="font-size: xx-small;">Picture Credit:</span> [<span style="font-size: xx-small;">Piotr Siedlecki</span>](http://www.publicdomainpictures.net/browse-author.php?a=43016)
 
 Have you ever created a text property on a model that you want to bind to your UI? How is that done in various frameworks? In Angular, this will work without any issues and immediately reflect what you type in the span:
 
 ```html
-<span style="font-family: consolas;"><input data-ng-model=’synchronizeThis’/><span>{{synchronizeThis}}</span></span>
+<span style="font-family: consolas;">
+<input data-ng-model=’synchronizeThis’/>
+<span>{{synchronizeThis}}</span></span>
 ```
 
 Of course you’ll seldom have the luxury of building an app that simple, but it illustrates how easy and straightforward data-binding can be in the Angular world. There is very little ritual or ceremony involved with standing up a model that participates in data-binding. You don’t have to derive from an existing object or explicitly declare your properties and dependencies – for the most part, you can just pass something you already have to Angular and it just works. That’s very powerful. If you’re curious how it works, Angular uses [dirty tracking](http://angular-tips.com/blog/2013/08/watch-how-the-apply-runs-a-digest/).
@@ -64,7 +68,7 @@ Although I understand some other frameworks have gotten better with this, moving
 
 <!-- @section -->
 
-## 3\. AngularJS Handles Dependencies
+## 3. AngularJS Handles Dependencies
 
 Dependency injection is something Angular does quite well. I’ll admit I was skeptical we even needed something like that on the client, but I was used to the key scenario being the dynamic loading of modules. Oh, wait – what did you say? That’s right, with libraries like [RequireJS](http://www.requirejs.org/) you can dynamically load JavaScript if and when you need it. Where dependency injection really shines however is two scenarios: testing and Single Page Applications.
 
@@ -74,7 +78,7 @@ Single Page Applications use dynamic loading to present a very “native applica
 
 <!-- @section -->
 
-## 4\. AngularJS Allows Developers to Express UI Declaratively and Reduce Side Effects
+## 4. AngularJS Allows Developers to Express UI Declaratively and Reduce Side Effects
 
 There are many advantages to a declarative UI. I mentioned several when I discussed XAML earlier in this post, but HTML is in the same boat. Having a structured UI makes it easier to understand and manipulate. Designers who aren’t necessarily programmers can learn markup far easier than they can programming. Using jQuery you end up having to know a lot about the structure of your documents. This creates two issues: first, the result is a lot of unstable code working as “glue” that is tightly coupled to changes in the UI, and second, you end up with plenty “magic” because it’s not evident from looking at the markup just what the UI will do. In other words, you may have a lot of behaviors and animations that are wired up “behind the scenes” so it’s not apparent from looking at the form tags that any validation or transitions are taking place.
 
@@ -84,10 +88,10 @@ By declaring your UI and placing markup directly in HTML, you keep the presentat
 
 <!-- @section -->
 
-## 5\. AngularJS Embraces ‘DD … Er, Testing
+## 5. AngularJS Embraces ‘DD … Er, Testing
 
 ![man-1378643715O0o](https://raw.githubusercontent.com/outlearn-content/jeremy-likness/master/assets/man-1378643715o0o_2.jpg)
-<span style="font-size: xx-small;">(Photo credit:</span> [<span style="font-size: xx-small;">George Hodan</span>](http://www.publicdomainpictures.net/browse-author.php?a=8245)<span style="font-size: xx-small;">).</span>
+<span style="font-size: xx-small;">Photo credit:</span> [<span style="font-size: xx-small;">George Hodan</span>](http://www.publicdomainpictures.net/browse-author.php?a=8245)
 
 It doesn’t matter if you embrace Test-Driven Development, Behavior-Driven Development, or any of the driven-development methodologies, Angular embraces this approach to building your application. I don’t want to use this post to get into all of the advantages and reasons why you should test (I’m actually amazed that in 2013 people still question the value) but I’ve recently taken far more of a traditional “test-first” approach and it’s helped. I believe that on our project, the introduction of Jasmine and the tests we included were responsible for reducing defects by up to 4x. Maybe it’s less (or it could be more) but there was a significant drop-off. This isn’t just because of Angular – it’s a combination of the requirements, good acceptance criteria, understanding how to write tests correctly and then having the framework to run them – but it certainly was easier to build those tests.
 
@@ -95,7 +99,7 @@ If you want to see what this looks like, take a look at my [6502 emulator](http:
 
 <!-- @section -->
 
-## 6\. AngularJS Enables Massively Parallel Development.
+## 6. AngularJS Enables Massively Parallel Development.
 
 One of the biggest issues we encountered early in the project was developers stepping on each other’s toes. Part of this is just a discipline and even with raw JavaScript you can follow patterns that make it more modular, but Angular just took it to another level. That’s not to say it completely eliminates dependencies, but it certainly makes them easier to manage. As a specific case in point, there is a massive grid in the application that is used to drive several key operations. In a traditional JavaScript application it could have been a merge nightmare to scale this across a large team. With Angular, however, it was straightforward to break down the various actions into their own services and sub-controllers that developers could independently test and code without crashing into each other as often.
 
@@ -111,7 +115,7 @@ If you’re a Microsoft developer and have worked with Blend … wouldn’t it b
 
 <!-- @section -->
 
-## 8\. AngularJS Gives Developers Controls.
+## 8. AngularJS Gives Developers Controls.
 
 One of the most common complaints I heard about moving to MVC was “what do we do with all of those controls?” The early perception was that controls don’t work/wouldn’t function in the non-ASP.NET space but web developers who use other platforms know that’s just not the case. There are a variety of ways to embrace reusable code on the web, from the concept of [jQuery plugins](http://plugins.jquery.com/) to third-party control vendors like one of my favorites, [KendoUI](http://www.kendoui.com/).
 
@@ -129,7 +133,7 @@ Remember how I mentioned the huge grid that is central to the project? We happen
 
 <!-- @section -->
 
-## 9\. AngularJS Helps Developers Manage State.
+## 9. AngularJS Helps Developers Manage State.
 
 I hesitate to add this point because savvy and experienced web developers understand the concept of what HTTP is and how to manage their application state. It’s the “illusion” of state that was perpetuated by ASP.NET that confuses developers when they shift to MVC. I once read on a rather popular forum a self-proclaimed architect declare that MVC was an inferior approach to web design because he had to “build his own state management.” What? That just demonstrates a complete lack of understanding of how the web works. If you rely on a 15K view state for your application to work, you’re doing it wrong.
 
@@ -145,7 +149,7 @@ Of course, this type of refactoring was possible due to the fact the application
 
 <!-- @section -->
 
-## 10\. AngularJS Supports Single Page Applications.
+## 10. AngularJS Supports Single Page Applications.
 
 In case you missed it, this point continues the last one. Single Page Applications are becoming more popular for a good reason. They fill a very specific need. More functionality is being moved to the web, and the browser is finally realizing its potential as a distributed computing node. By design, SPA applications are far more responsive (even though some of that is perception). They can provide an experience that feels almost like a native app in the web. By rendering on the client they cut down load on the server as well as reduce network traffic – instead of sending a full page of markup, you can send a payload of data and turn it into markup at the client.
 
