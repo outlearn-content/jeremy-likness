@@ -1,0 +1,15 @@
+{
+  "olpVersion" : "0.5",
+
+  "paths" : [
+  ],
+
+  "modules" : [
+    {
+      "olm" : "./modules/10-reasons-learn-angularjs.md"
+    }
+  ],
+
+  "assets" : [
+  ]
+}
