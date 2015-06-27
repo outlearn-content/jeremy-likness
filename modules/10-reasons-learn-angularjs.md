@@ -5,7 +5,7 @@
 "title" : "10 Reasons Web Developers Should Learn AngularJS",
 "description" : "Why Angular is so powerful and pointers to resources that will get you up to speed quickly.",
 "homepage" : "http://csharperimage.jeremylikness.com/2013/09/10-reasons-web-developers-should-learn.html",
-"freshnessDate" : 2013-09-19,
+"freshnessDate" : 2014-04-24,
 "license" : "All Rights Reserved"
 }
 -->
