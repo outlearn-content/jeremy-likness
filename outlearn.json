@@ -6,7 +6,8 @@
 
   "modules" : [
     {"olm" : "./modules/10-reasons-learn-angularjs.md"},
-    {"olm" : "./modules/feed-reader-under-10-minutes.md"}
+    {"olm" : "./modules/feed-reader-under-10-minutes.md"},
+    {"olm" : "./modules/top-5-angular-mistakes.md"}
   ],
 
   "assets" : [
