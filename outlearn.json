@@ -2,6 +2,18 @@
   "olpVersion" : "0.5",
 
   "paths" : [
+    {
+  "name" : "all-modules",
+  "title" : "All Modules by Jeremy Likness",
+  "description" : "See in one place all the modules published by Jeremy Likness.",
+  "coverImage" : "https://raw.githubusercontent.com/outlearn-content/assets/master/space.jpg",
+  "privacy" : "public",
+  "pages" : [
+    {"module" : "10-reasons-learn-angularj"},
+    {"module" : "feed-reader-under-10-minutes"},
+    {"module" : "top-5-angular-mistakes"}
+  ]
+}
   ],
 
   "modules" : [
