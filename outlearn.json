@@ -9,7 +9,7 @@
   "coverImage" : "https://raw.githubusercontent.com/outlearn-content/assets/master/space.jpg",
   "privacy" : "public",
   "pages" : [
-    {"module" : "10-reasons-learn-angularj"},
+    {"module" : "10-reasons-learn-angularjs"},
     {"module" : "feed-reader-under-10-minutes"},
     {"module" : "top-5-angular-mistakes"}
   ]
