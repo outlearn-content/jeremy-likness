@@ -47,6 +47,8 @@ The other real world example was a pilot program with a cable company. We were b
 
 I see these same principles reflected in the Angular framework. It enables a separation of concerns that allows a true parallel workflow between various components including the markup for the UI itself and the underlying logic that fetches and processes data.
 
+<!-- @task, "text" : "If you need a refresher on separation of concerns, check out https://en.wikipedia.org/wiki/Separation_of_concerns."-->
+
 <!-- @section -->
 
 ## 2. AngularJS Gets Rid of Ritual and Ceremony

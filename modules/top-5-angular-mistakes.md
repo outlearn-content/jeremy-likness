@@ -12,7 +12,8 @@
 
 <!-- @section, "title": "Introduction" -->
 
-*Note: This module combines together five blog posts.*  
+**Note:** This module combines together five blog posts.
+
 Although [AngularJS](http://angularjs.org) is an extraordinarily popular framework, there is plenty of discussion and controversy over whether or not it truly adds value to projects. Having witnessed its value firsthand as I described in my recent post, [Angular from a Different Angle](http://csharperimage.jeremylikness.com/2014/10/a-different-angle-what-is-angularjs.html), I believe it can be a powerful tool when used correctly. Voltaire said, “With great power comes great responsibility.” A tool like Angular can be easily abused. This series is designed to help you avoid common traps and pitfalls before they become a problem.
 
 The top five mistakes I see people make are:
