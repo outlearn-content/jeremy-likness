@@ -68,6 +68,18 @@ Of course you’ll seldom have the luxury of building an app that simple, but it
 
 Although I understand some other frameworks have gotten better with this, moving away from our existing framework where we had to explicitly map everything over to an interim object to data-bind to Angular was like a breath of fresh air … things just started coming together more quickly and I felt like was duplicating less code (who wants to define a contact table, then a contact domain object on the server, then a contact JSON object that then has to be passed to a contact client-side model just to, ah, display details about a contact?)
 
+<!-- @multipleChoice -->
+
+Angular cuts down on ritual and ceremony because
+
+- [ ] It does not allow JSON objects
+- [ ] It does very little dirty tracking
+- [X] It simplifies data-binding
+
+Remember that the example talks about synchronizing a model with the UI.
+
+<!-- @end -->
+
 <!-- @section -->
 
 ## 3. AngularJS Handles Dependencies
@@ -87,6 +99,17 @@ There are many advantages to a declarative UI. I mentioned several when I discus
 By declaring your UI and placing markup directly in HTML, you keep the presentation logic in one place and separated from the imperative logic. Once you understand the extended markup that Angular provides, code snippets like the one above make it clear where data is being bound and what it is being bound to. The addition of tools like directives and filters makes it even more clear what the intent of the UI is, but also how the information is being shaped because the shaping is done right there in the markup rather in some isolated code.
 
 [Maintaining large systems](http://wintellect.com/html5-javascript-experts-angular-consultants) – whether large software projects or mid-sized projects with large teams – is about reducing side effects. A side effect is when you change something with unexpected or even catastrophic results. If your jQuery depends on an id to latch onto an element and a designer changes it, you lose that binding. If you are explicitly populating options in a dropdown and the designer (or the customer, or you) decides to switch to a third party component, the code breaks. A declarative UI reduces these side effects by declaring the bindings at the source, removing the need for hidden code that glues the behaviors to the UI, and allowing data-binding to decouple the dependency on the idea (i.e. “a list”) from the presentation of the idea (i.e. a dropdown vs. a bulleted list).
+
+<!-- @multipleChoice -->
+
+Expressing UI declaratively helps developers
+
+- [X] Work more effectively with designers
+- [ ] Create new kinds of business logic
+- [ ] Manipulate the "glue" that connects the work of designers and developers
+
+
+<!-- @end -->
 
 <!-- @section -->
 
@@ -132,6 +155,18 @@ Our project has evolved with literally dozens of directives and they all partici
 *   Directives participate in dependency injection
 
 Remember how I mentioned the huge grid that is central to the project? We happen to use a lot of grids (as does almost every enterprise web application ever written). We use the KendoUI variant, and there are several steps you must take to initialize the grid. For our purposes, many of the configuration options are consistent across grids, so why make developers type all of the code? Instead, we enable them to drop a new element (directive), tag it with a few attributes (directives), and they are up and running.
+
+<!-- @multipleChoice -->
+
+Directives
+
+- [ ] Are compared to how controls work in ASP.NET and related frameworks
+- [X] Are related to other benefits mentioned in the post
+- [ ] Are a tool specifically suited to large grid layouts in web apps
+
+Note the list of benefits from directives included in this section.
+
+<!-- @end -->
 
 <!-- @section -->
 
