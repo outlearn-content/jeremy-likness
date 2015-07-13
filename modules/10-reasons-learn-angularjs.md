@@ -26,7 +26,7 @@ I can only assume other organizations are seeing positive results after adopting
 
 ![angulartrends](https://raw.githubusercontent.com/outlearn-content/jeremy-likness/master/assets/angulartrends_2.jpg)
 
-<!-- @link, "url" : "https://goo.gl/r4k22s", "text": "Check out an updated Google Trends chart comparing AngularJS, KnockoutJS, React.js, Ember.js, and Backbone.js." -->
+<!-- @link, "url" : "https://goo.gl/r4k22s", "text": "Check out an updated Google Trends chart comparing AngularJS, Knockout, React, Ember.js, and Backbone.js." -->
 
 One of the first single-track AngularJS conferences, [ng-conf](http://ng-conf.org/), sold out hundreds of tickets in just a few minutes.
 
@@ -164,7 +164,7 @@ Directives
 - [X] Are related to other benefits mentioned in the post
 - [ ] Are a tool specifically suited to large grid layouts in web apps
 
-Note the list of benefits from directives included in this section.
+Note that the list of benefits from directives included in this section.
 
 <!-- @end -->
 
