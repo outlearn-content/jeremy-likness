@@ -5,6 +5,7 @@
 "title" : "A JavaScript Feed Reader in Under 10 Minutes Using Angular JS",
 "description" : "I demonstrate how to make a functioning feed reader entirely in the browser from scratch in less than 10 minutes.",
 "homepage" : "http://csharperimage.jeremylikness.com/2014/04/video-javascript-feed-reader-in-under.html",
+"canonicalSource" : "http://csharperimage.jeremylikness.com/2014/04/video-javascript-feed-reader-in-under.html",
 "freshnessDate" : 2014-04-22,
 "license" : "CC BY-SA 3.0"
 }

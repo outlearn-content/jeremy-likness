@@ -5,6 +5,7 @@
 "title" : "The Top 5 Mistakes AngularJS Developers Make",
 "description" : "A tool like Angular can be easily abused. Avoid common traps and pitfalls before they become a problem.",
 "homepage" : "http://csharperimage.jeremylikness.com/2014/11/the-top-5-mistakes-angularjs-developers.html",
+"canonicalSource" : "http://csharperimage.jeremylikness.com/2014/11/the-top-5-mistakes-angularjs-developers.html",
 "freshnessDate" : 2014-11-26,
 "license" : "CC BY-SA 3.0"
 }
